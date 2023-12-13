@@ -41,9 +41,27 @@ googlescholar_username: _0dqjVAAAAAJ
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/kolokasis.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+  I am a 3rd-year PhD student in the <Computer Science Department at the
+  University of Crete, working with <a href="https://users.ics.forth.gr/~bilas">Prof. Angelos Bilas</a>. 
+  I am also a graduate research assistant in the <a
+  href="https://www.ics.forth.gr/carv/">Institute of Computer Science (ICS)</a> 
+  at the <a href="https://www.forth.gr/">Foundation of Research and Technology -
+  Hellas (FORTH)</a>. I received my Bachelor’s and Master’s degrees in Computer
+  Science from the University of Crete in 2017 and 2020, respectively. My main
+  research interests fall at the intersection of managed programming languages
+  and runtimes, memory, and storage systems. My work focuses on exploiting
+  emerging non-volatile memories and fast block-addressable storage devices to
+  improve heap efficiency in managed languages for data warehouse workloads,
+  such as big-data analytics frameworks. My recent work resolves the tension
+  between garbage collection and serialization/deserialization by providing a
+  separate scanless managed heap over storage devices. It eliminates both
+  garbage collection and serialization overheads without imposing any language
+  restrictions.  
+
+  I am honored that my work was awarded with the <a href="https://research.facebook.com/fellows/kolokasis-iacovos-g/">Meta PhD Fellowship (2022-2024)</a>. 
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
