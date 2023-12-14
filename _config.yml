@@ -43,8 +43,6 @@ googlescholar_username: _0dqjVAAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/kolokasis.jpg
 about_content: | # this will include new lines to allow paragraphs
-  <img src="https://img.shields.io/badge/Interests-Managed Runtime Systems, JVM, Garbage Collection, Memory Systems, Big Data Analytics" /> 
-  <br>
 
   I am a 3rd-year PhD student in the <Computer Science Department at the
   University of Crete, working with <a href="https://users.ics.forth.gr/~bilas">Prof. Angelos Bilas</a>. 
@@ -63,7 +61,12 @@ about_content: | # this will include new lines to allow paragraphs
   garbage collection and serialization overheads without imposing any language
   restrictions.  
 
-  <br><br><a href="cv.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Click for CV-critical" /></a>
+  <br>
+  <img src="https://img.shields.io/badge/Interests-Managed Runtime Systems, JVM, Garbage Collection, Memory Systems, Big Data Analytics-dodgerblue" />
+
+
+  <br>
+  <a href="cv.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Click for CV-critical" /></a>
 
 content:
   - title: Projects # Title for the section
