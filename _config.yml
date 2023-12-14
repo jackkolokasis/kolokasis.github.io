@@ -43,6 +43,8 @@ googlescholar_username: _0dqjVAAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/kolokasis.jpg
 about_content: | # this will include new lines to allow paragraphs
+  <img src="https://img.shields.io/badge/Interests-Managed Runtime Systems, JVM, Garbage Collection, Memory Systems, Big Data Analytics" /> 
+  <br>
 
   I am a 3rd-year PhD student in the <Computer Science Department at the
   University of Crete, working with <a href="https://users.ics.forth.gr/~bilas">Prof. Angelos Bilas</a>. 
@@ -61,13 +63,7 @@ about_content: | # this will include new lines to allow paragraphs
   garbage collection and serialization overheads without imposing any language
   restrictions.  
 
-  I am honored that my work was awarded with the <a href="https://research.facebook.com/fellows/kolokasis-iacovos-g/">Meta PhD Fellowship (2022-2024)</a>. 
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  <br><br><a href="cv.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Click for CV-critical" /></a>
 
 content:
   - title: Projects # Title for the section
