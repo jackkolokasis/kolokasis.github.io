@@ -111,17 +111,17 @@ content:
           2020-present
         description: | # this will include new lines to allow paragraphs
           <div style="text-align: right; margin-top: -140px;" class="hidden-xs hidden-sm">
-            <img src="https://el.wikipedia.org/wiki/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg#/media/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg" alt="SNU logo" height="85"/> 
-            <img src="https://el.wikipedia.org/wiki/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg#/media/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg" alt="SNU logo" height="60"/>
-            </div>
+            <img src="images/uoc.png" alt="SNU logo" height="85"/> 
+            <img src="images/uoc.png" alt="SNU logo" height="60"/>
+          </div>
           <div style="text-align: right; margin-top: -150px;" class="visible-sm-block">
-            <img src="https://el.wikipedia.org/wiki/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg#/media/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg" alt="SNU logo" height="50"/> 
-            <img src="https://el.wikipedia.org/wiki/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg#/media/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg" alt="SNU logo" height="30"/>
-            </div>
+            <img src="images/uoc.png" alt="SNU logo" height="50"/> 
+            <img src="images/uoc.png" alt="SNU logo" height="30"/>
+          </div>
           <div style="text-align: center; " class="visible-xs-block">
-            <img src="https://el.wikipedia.org/wiki/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg#/media/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg" alt="SNU logo" height="50"/> 
-            <img src="https://el.wikipedia.org/wiki/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg#/media/%CE%91%CF%81%CF%87%CE%B5%CE%AF%CE%BF:%CE%88%CE%BC%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1_%CE%A0%CE%B1%CE%BD%CE%B5%CF%80%CE%B9%CF%83%CF%84%CE%B7%CE%BC%CE%AF%CE%BF%CF%85_%CE%9A%CF%81%CE%AE%CF%84%CE%B7%CF%82.svg" alt="SNU logo" height="40"/>
-            </div>
+            <img src="images/uoc.png" alt="SNU logo" height="50"/> 
+            <img src="images/uoc.png" alt="SNU logo" height="40"/>
+          </div>
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
