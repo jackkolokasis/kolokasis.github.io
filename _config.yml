@@ -110,6 +110,8 @@ content:
         caption: |
           2020-present
         description: | # this will include new lines to allow paragraphs
+          <br>
+          <br>
           <div style="text-align: right; margin-top: -140px;" class="hidden-xs hidden-sm">
             <img src="images/uoc.png" alt="SNU logo" height="85"/> 
           </div>
