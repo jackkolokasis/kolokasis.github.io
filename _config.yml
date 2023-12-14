@@ -16,7 +16,7 @@ email: kolokasis@ics.forth.gr
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 github_username:  jackkolokasis
