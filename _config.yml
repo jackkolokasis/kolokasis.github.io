@@ -238,6 +238,38 @@ content:
             icon: fab fa-github
             url: https://github.com/jackkolokasis/graphPartitioning
 
+  - title: Selected Talks / Posters # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: "DynaHeap: Dynamic Division of DRAM between Heterogeneous Managed Heaps"
+        link_text: Click for full text
+        sub_title: 2023. 29th ACM Symposium on Operating Systems Principles (SOSP '23)  
+        additional_links:
+          - title: poster
+            icon: fa fa-file-image-o
+            url: https://jackkolokasis.github.io/kolokasis.github.io/posters/dynaheap_sosp23.pdf
+      - layout: top
+        title: "TeraCache: Efficient Caching over Fast Storage Devices"
+        link_text: Click for full text
+        sub_title: 2021. MSR Cambridge PhD Virtual Workshop on Next-Generation Cloud Infrastructure
+        additional_links:
+          - title: poster
+            icon: fa fa-file-image-o
+            url: https://jackkolokasis.github.io/kolokasis.github.io/posters/teracache_msr.pdf
+
+      - layout: top
+        title: "TeraCache: Efficient Caching over Fast Storage Devices"
+        link_text: Click for full text
+        sub_title: 2020. Data and AI Summit Europe'20
+        additional_links:
+          - title: presentation
+            icon: fa fa-slideshare
+            url: https://jackkolokasis.github.io/kolokasis.github.io/slides/kolokasis_spark_summit_final.pdf
+          - title: video
+            icon: fa fa-video
+            url: https://www.youtube.com/watch?v=O1PzEmUJ-X0  
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
