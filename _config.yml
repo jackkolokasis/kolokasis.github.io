@@ -183,6 +183,9 @@ content:
           - title: presentation
             icon: fa fa-slideshare
             url: https://jackkolokasis.github.io/kolokasis.github.io/slides/teraheap-asplos23-kolokasis.pdf
+          - title: poster
+            icon: fa fa-file-image-o
+            url: https://jackkolokasis.github.io/kolokasis.github.io/posters/teraheap.pdf
           - title: github
             icon: fab fa-github
             url: https://github.com/jackkolokasis/teraheap
@@ -228,6 +231,9 @@ content:
           - title: presentation
             icon: fa fa-slideshare
             url: https://www.slideshare.net/jackkolokasis/cut-to-fit-tailoring-the-partitioning-to-the-computation
+          - title: poster
+            icon: fa fa-file-image-o
+            url: https://jackkolokasis.github.io/kolokasis.github.io/posters/cut_to_fit.pdf
           - title: github
             icon: fab fa-github
             url: https://github.com/jackkolokasis/graphPartitioning
