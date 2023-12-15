@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3327964.3328498,
+author = {Kolokasis, Iacovos G. and Pratikakis, Polyvios},
+title = {Cut to Fit: Tailoring the Partitioning to the Computation},
+year = {2019},
+isbn = {9781450367899},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3327964.3328498},
+doi = {10.1145/3327964.3328498},
+abstract = {Graph analytics applications are very often built using off-the-shelf analytics frameworks, which are profiled and optimized for the general case and have to perform for all kind of graphs. As performance is affected by the selection of the partition strategy analytics frameworks often offer a selection of partitioning algorithms. In this paper we evaluate the impact of partitioning strategies on the performance of graph computations. We evaluate eight graph partitioning algorithms on a diverse set of graph datasets, using four standard graph algorithms by measuring a set of five partitioning metrics.We analyze the performance of each partitioning strategy with respect to (i) the properties of the graph dataset, (ii) each analytics computation and (iii) the number of partitions. We confirm that there is no optimal partitioner across all experiments and moreover, find no metric always correlated with performance, that could be targeted by novel partitioners. Finally, we find that partitioning time may become a significant part of total time, and investing a lot of time to approximate perfect partitioning may not be worth it. We propose that a "good enough" strategy may be to have a very fast (and locally computable) heuristic to select among the best performing partitioners for any given problem instance. We demonstrate this by proposing PARSEL, a very simple partitioner selector. PARSEL selects among the two best-performing partitioners very fast; we demonstrate that even such a simple heuristic can outperform either partitioning strategy alone.},
+booktitle = {Proceedings of the 2nd Joint International Workshop on Graph Data Management Experiences \& Systems (GRADES) and Network Data Analytics (NDA)},
+articleno = {9},
+numpages = {10},
+keywords = {GraphX, Partitioning, Evaluation},
+location = {Amsterdam, Netherlands},
+series = {GRADES-NDA'19}
+}

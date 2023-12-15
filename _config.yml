@@ -12,7 +12,7 @@ email: kolokasis@ics.forth.gr
 # email_title: Email (Email title override)
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-#website: Your website (eg. https://google.com)(optional)
+website: kolokasis.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -44,8 +44,8 @@ googlescholar_username: _0dqjVAAAAAJ
 about_profile_image: images/kolokasis.jpg
 about_content: | # this will include new lines to allow paragraphs
 
-  I am a 3rd-year PhD student in the <Computer Science Department at the
-  University of Crete, working with <a href="https://users.ics.forth.gr/~bilas">Prof. Angelos Bilas</a>. 
+  I am a 3rd-year PhD student in the <a href="www.csd.uoc.gr">Computer Science Department at the
+  University of Crete</a>, working with <a href="https://users.ics.forth.gr/~bilas">Prof. Angelos Bilas</a>. 
   I am also a graduate research assistant in the <a
   href="https://www.ics.forth.gr/carv/">Institute of Computer Science (ICS)</a> 
   at the <a href="https://www.forth.gr/">Foundation of Research and Technology -
@@ -61,11 +61,8 @@ about_content: | # this will include new lines to allow paragraphs
   garbage collection and serialization overheads without imposing any language
   restrictions.  
 
-  <br>
-  <img src="https://img.shields.io/badge/Interests-Managed Runtime Systems, JVM, Garbage Collection, Memory Systems, Big Data Analytics-dodgerblue" />
+  <img src="https://img.shields.io/badge/Interests-Managed Languages and Runtimes, Garbage Collection, Memory Systems-dodgerblue" />
 
-
-  <br>
   <a href="cv.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Click for CV-critical" /></a>
 
 content:
@@ -108,25 +105,132 @@ content:
         title: University of Crete, Greece
         sub_title: Ph.D., Computer Science
         caption: |
-          2020-present
+          2020 - present
+          <br>
+          Supervisor: Angelos Bilas
         description: | # this will include new lines to allow paragraphs
           <br>
           <br>
           <div style="text-align: right; margin-top: -140px;" class="hidden-xs hidden-sm">
-            <img src="images/uoc.png" alt="SNU logo" height="85"/> 
+            <img src="images/uoc.png" alt="UoC logo" height="85"/> 
           </div>
           <div style="text-align: right; margin-top: -150px;" class="visible-sm-block">
-            <img src="images/uoc.png" alt="SNU logo" height="50"/> 
+            <img src="images/uoc.png" alt="UoC logo" height="60"/> 
           </div>
           <div style="text-align: center; " class="visible-xs-block">
-            <img src="images/uoc.png" alt="SNU logo" height="50"/> 
+            <img src="images/uoc.png" alt="UoC logo" height="60"/> 
           </div>
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: top
+        title: University of Crete, Greece
+        sub_title: M.Sc., Computer Science
+        caption: |
+          2017 - 2020
+          <br>
+          Dissertation: <em><a href="https://elocus.lib.uoc.gr/dlib/5/5/1/attached-metadata-dlib-1617101997-352719-7563/Thesis_Kolokasis_Iakwvos.pdf">TeraCache: Efficient Spark Caching Over Fast Storage Devices</a></em>
+          <br>
+          Supervisor: Polyvios Pratikakis and Angelos Bilas
+        description: | # this will include new lines to allow paragraphs
+          <br>
+          <br>
+          <div style="text-align: right; margin-top: -140px;" class="hidden-xs hidden-sm">
+            <img src="images/uoc.png" alt="UoC logo" height="85"/> 
+          </div>
+          <div style="text-align: right; margin-top: -150px;" class="visible-sm-block">
+            <img src="images/uoc.png" alt="UoC logo" height="60"/> 
+          </div>
+          <div style="text-align: center; " class="visible-xs-block">
+            <img src="images/uoc.png" alt="UoC logo" height="60"/> 
+          </div>
+      - layout: top
+        title: University of Crete, Greece
+        sub_title: B.Sc., Computer Science
+        caption: |
+          2011 - 2017
+          <br>
+          Disertation: Locality Optimizations Distributed Graph Analysis Computations 
+          <br>
+          Supervisor: Polyvios Pratikakis
+        description: | # this will include new lines to allow paragraphs
+          <br>
+          <br>
+          <div style="text-align: right; margin-top: -140px;" class="hidden-xs hidden-sm">
+            <img src="images/uoc.png" alt="UoC logo" height="85"/> 
+          </div>
+          <div style="text-align: right; margin-top: -150px;" class="visible-sm-block">
+            <img src="images/uoc.png" alt="UoC logo" height="60"/> 
+          </div>
+          <div style="text-align: center; " class="visible-xs-block">
+            <img src="images/uoc.png" alt="UoC logo" height="60"/> 
+          </div>
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: "TeraHeap: Reducing Memory Pressure in Managed Big Data Frameworks"
+        link: https://dl.acm.org/doi/abs/10.1145/3582016.3582045
+        link_text: Click for full text
+        sub_title: 2023. 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '23). ACM. DOI https://doi.org/10.1145/3582016.3582045
+        description: | # this will include new lines to allow paragraphs
+          <b>Iacovos G. Kolokasis</b>, Giannos Evdorou, Shoaib Akram, Christos Kozanitis, Anastasios Papagiannis, Foivos S. Zakkak, Polyvios Pratikakis, and Angelos Bilas
+        additional_links:
+          - title: Bibtex
+            icon: fa fa-book
+            url: https://jackkolokasis.github.io/kolokasis.github.io/papers/teraheap.bib
+          - title: Link
+            icon: fa fa-paperclip
+            url: https://dl.acm.org/doi/abs/10.1145/3582016.3582045
+          - title: presentation
+            icon: fa fa-slideshare
+            url: https://jackkolokasis.github.io/kolokasis.github.io/slides/teraheap-asplos23-kolokasis.pdf
+          - title: github
+            icon: fab fa-github
+            url: https://github.com/jackkolokasis/teraheap
+          - title: video
+            icon: fa fa-video
+            url: https://www.youtube.com/watch?v=2fSqvkNk07M
+
+      - layout: top
+        title: "Say Goodbye to Off-heap Caches! On-heap Caches Using Memory-Mapped I/O"
+        link: https://www.usenix.org/conference/hotstorage20/presentation/kolokasis
+        link_text: Click for full text
+        sub_title: 2020. 12th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage 20). USENIX Association.
+        description: | # this will include new lines to allow paragraphs
+          <b>Iacovos G. Kolokasis</b>, Anastasios Papagiannis, Foivos S. Zakkak, Polyvios Pratikakis, and Angelos Bilas
+        additional_links:
+          - title: Bibtex
+            icon: fa fa-book
+            url: https://jackkolokasis.github.io/kolokasis.github.io/papers/teracache.bib
+          - title: Link
+            icon: fa fa-paperclip
+            url: https://www.usenix.org/conference/hotstorage20/presentation/kolokasis
+          - title: presentation
+            icon: fa fa-slideshare
+            url: https://jackkolokasis.github.io/kolokasis.github.io/slides/hotstorage20-paper17-slides-kolokalis.pdf
+          - title: video
+            icon: fa fa-video
+            url: https://www.youtube.com/watch?v=rqpXpTnQxZg
+      
+      - layout: top
+        title: "Cut to Fit: Tailoring the Partitioning to the Computation"
+        link: https://dl.acm.org/doi/abs/10.1145/3327964.3328498
+        link_text: Click for full text
+        sub_title: 2019. 2nd Joint International Workshop on Graph Data Management Experiences & Systems (GRADES) and Network Data Analytics (NDA) (GRADES-NDA’19). ACM. DOI https://doi.org/10.1145/3327964.3328498
+        description: | # this will include new lines to allow paragraphs
+          <b>Iacovos G. Kolokasis</b> and Polyvios Pratikakis
+        additional_links:
+          - title: Bibtex
+            icon: fa fa-book
+            url: https://jackkolokasis.github.io/kolokasis.github.io/papers/cut_to_fit.bib
+          - title: Link
+            icon: fa fa-paperclip
+            url: https://dl.acm.org/doi/10.1145/3327964.3328498
+          - title: presentation
+            icon: fa fa-slideshare
+            url: https://www.slideshare.net/jackkolokasis/cut-to-fit-tailoring-the-partitioning-to-the-computation
+          - title: github
+            icon: fab fa-github
+            url: https://github.com/jackkolokasis/graphPartitioning
 
 # Footer
 footer_show_references: true

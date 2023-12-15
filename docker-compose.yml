@@ -3,8 +3,9 @@ version: '3'
 services:
   jekyll:
     image: jekyll/jekyll:3.8
+    working_dir: /srv/jekyll
     container_name: modern-resume-theme
-    command: jekyll serve --watch --force_polling --verbose
+    command: jekyll serve --watch --force_polling --incremental --verbose --host 0.0.0.0
     ports:
       - 4000:4000
       - 35729:35729
