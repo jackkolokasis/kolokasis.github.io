@@ -98,6 +98,73 @@ content:
   #        Short description of the company (optional)
   #      description: | # this will include new lines to allow paragraphs
   #        Description of role
+  - title: Experience
+    layout: list
+    content:
+      - layout: top
+        title: CARV, ICS-FORTH
+        sub_title: Graduate Research Assistant
+        caption: Sep. 2017 - present · Heraklion, Greece
+        description: | # this will include new lines to allow paragraphs
+          <br>
+          <br>
+          <div style="text-align: right; margin-top: -140px;" class="hidden-xs hidden-sm">
+            <img src="images/forth.png" alt="UoC logo" height="50"/> 
+          </div>
+          <div style="text-align: right; margin-top: -150px;" class="visible-sm-block">
+            <img src="images/forth.png" alt="UoC logo" height="60"/> 
+          </div>
+          <div style="text-align: center; " class="visible-xs-block">
+            <img src="images/forth.png" alt="UoC logo" height="60"/> 
+          </div>
+      - layout: top
+        title: Huawei Research Center
+        sub_title: Intern Research Student
+        caption: Jun. 2022 - Sep. 2022 · Munich, Gernamy
+        description: | # this will include new lines to allow paragraphs
+          <br>
+          <br>
+          <div style="text-align: right; margin-top: -140px;" class="hidden-xs hidden-sm">
+            <img src="images/huawei.png" alt="UoC logo" height="50"/> 
+          </div>
+          <div style="text-align: right; margin-top: -150px;" class="visible-sm-block">
+            <img src="images/huawei.png" alt="UoC logo" height="60"/> 
+          </div>
+          <div style="text-align: center; " class="visible-xs-block">
+            <img src="images/huawei.png" alt="UoC logo" height="60"/> 
+          </div>
+      - layout: top
+        title: SAP
+        sub_title: Intern Research Student
+        caption: Jun. 2019 - Sep. 2019 · Walldorf, Gernamy
+        description: | # this will include new lines to allow paragraphs
+          <br>
+          <br>
+          <div style="text-align: right; margin-top: -140px;" class="hidden-xs hidden-sm">
+            <img src="images/sap.png" alt="UoC logo" height="50"/> 
+          </div>
+          <div style="text-align: right; margin-top: -150px;" class="visible-sm-block">
+            <img src="images/sap.png" alt="UoC logo" height="60"/> 
+          </div>
+          <div style="text-align: center; " class="visible-xs-block">
+            <img src="images/sap.png" alt="UoC logo" height="60"/> 
+          </div>
+      - layout: top
+        title: CARV, ICS-FORTH
+        sub_title: Undergraduate Research Assistant
+        caption: Jan. 2017 - Aug. 2017 · Heraklion, Greece
+        description: | # this will include new lines to allow paragraphs
+          <br>
+          <br>
+          <div style="text-align: right; margin-top: -140px;" class="hidden-xs hidden-sm">
+            <img src="images/forth.png" alt="UoC logo" height="50"/> 
+          </div>
+          <div style="text-align: right; margin-top: -150px;" class="visible-sm-block">
+            <img src="images/forth.png" alt="UoC logo" height="60"/> 
+          </div>
+          <div style="text-align: center; " class="visible-xs-block">
+            <img src="images/forth.png" alt="UoC logo" height="60"/> 
+          </div>
   - title: Education
     layout: list
     content:
