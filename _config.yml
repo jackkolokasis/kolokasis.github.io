@@ -314,6 +314,17 @@ content:
       - layout: top
         title: "DynaHeap: Dynamic Division of DRAM between Heterogeneous Managed Heaps"
         link_text: Click for full text
+        sub_title: 2024.  19th European Conference on Computer Systems (EuroSys '24)  
+        additional_links:
+          - title: poster
+            icon: fa fa-file-image-o
+            url: https://jackkolokasis.github.io/kolokasis.github.io/posters/dynaheap_eurosys24.pdf
+          - title: Link
+            icon: fa fa-paperclip
+            url: https://jackkolokasis.github.io/kolokasis.github.io/papers/dynaheap_abstract_eurosys24.pdf
+      - layout: top
+        title: "DynaHeap: Dynamic Division of DRAM between Heterogeneous Managed Heaps"
+        link_text: Click for full text
         sub_title: 2023. 29th ACM Symposium on Operating Systems Principles (SOSP '23)  
         additional_links:
           - title: poster
