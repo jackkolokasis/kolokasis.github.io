@@ -319,6 +319,9 @@ content:
           - title: poster
             icon: fa fa-file-image-o
             url: https://jackkolokasis.github.io/kolokasis.github.io/posters/dynaheap_sosp23.pdf
+          - title: Link
+            icon: fa fa-paperclip
+            url: https://jackkolokasis.github.io/kolokasis.github.io/papers/sosp2023-dynaheap.pdf
       - layout: top
         title: "TeraCache: Efficient Caching over Fast Storage Devices"
         link_text: Click for full text
