@@ -312,6 +312,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top
+        title: "FlexHeap: Dynamic DRAM Partitioning Between Managed Heap and Page Cache"
+        link_text: Click for full text
+        sub_title: 2024. CS446 - Managed Runtime Systems
+        additional_links:
+          - title: presentation
+            icon: fa fa-slideshare
+            url: https://jackkolokasis.github.io/kolokasis.github.io/slides/flexheap_kolokasis_cs446.pdf
+
+      - layout: top
         title: "GateKeeper: Transparent Placement of Big Data Objects in Hybrid Managed Heaps"
         link_text: Click for full text
         sub_title: 2024.  18th EuroSys Doctoral Workshop (EuroDW '24)
