@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | jackkolokasis.com</title>
+    <link>https://jackkolokasis.com/publication/</link>
+      <atom:link href="https://jackkolokasis.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackkolokasis.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://jackkolokasis.com/publication/</link>
+    </image>
+    
+    <item>
+      <title>TeraHeap: Reducing Memory Pressure in Managed Big Data Frameworks</title>
+      <link>https://jackkolokasis.com/publication/kolokasis_2023_teraheap/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/publication/kolokasis_2023_teraheap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Say Goodbye to Off-heap Caches! On-heap Caches Using Memory-Mapped I/O</title>
+      <link>https://jackkolokasis.com/publication/kolokasis_2020_teracache/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/publication/kolokasis_2020_teracache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cut to Fit: Tailoring the Partitioning to the Computation</title>
+      <link>https://jackkolokasis.com/publication/kolokasis_2019_partitioner/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/publication/kolokasis_2019_partitioner/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

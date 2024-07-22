@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | jackkolokasis.com</title>
+    <link>https://jackkolokasis.com/event/</link>
+      <atom:link href="https://jackkolokasis.com/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Apr 2024 17:45:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jackkolokasis.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://jackkolokasis.com/event/</link>
+    </image>
+    
+    <item>
+      <title>DynaHeap: Dynamic DRAM Partitioning Between Managed Heap and Page Cache</title>
+      <link>https://jackkolokasis.com/talk/dynaheap-dynamic-dram-partitioning-between-managed-heap-and-page-cache/</link>
+      <pubDate>Tue, 23 Apr 2024 17:45:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/talk/dynaheap-dynamic-dram-partitioning-between-managed-heap-and-page-cache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GateKeeper: Transparent Placement of Big Data Objects in Hybrid Managed Heaps</title>
+      <link>https://jackkolokasis.com/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/</link>
+      <pubDate>Mon, 22 Apr 2024 15:15:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic DRAM Partitioning Between Managed Heap and Page Cache</title>
+      <link>https://jackkolokasis.com/talk/dynamic-dram-partitioning-between-managed-heap-and-page-cache/</link>
+      <pubDate>Thu, 18 Apr 2024 10:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/talk/dynamic-dram-partitioning-between-managed-heap-and-page-cache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DynaHeap: Dynamic Division of DRAM between Heterogeneous Managed Heaps</title>
+      <link>https://jackkolokasis.com/talk/dynaheap-dynamic-division-of-dram-between-heterogeneous-managed-heaps/</link>
+      <pubDate>Tue, 24 Oct 2023 18:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/talk/dynaheap-dynamic-division-of-dram-between-heterogeneous-managed-heaps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TeraCache: Efficient Caching over Fast Storage Devices</title>
+      <link>https://jackkolokasis.com/talk/teracache-efficient-caching-over-fast-storage-devices/</link>
+      <pubDate>Wed, 24 Mar 2021 11:10:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/talk/teracache-efficient-caching-over-fast-storage-devices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TeraCache: Efficient Caching over Fast Storage Devices</title>
+      <link>https://jackkolokasis.com/talk/teracache-efficient-caching-over-fast-storage-devices/</link>
+      <pubDate>Thu, 19 Nov 2020 11:10:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/talk/teracache-efficient-caching-over-fast-storage-devices/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
