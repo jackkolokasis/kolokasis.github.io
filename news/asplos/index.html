@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: August 6, 2024 --><html lang="en-us" >
+<!-- Last Published: July 28, 2024 --><html lang="en-us" >
 
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.26c458e6907dc03073573976b7f4044e.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
 
   
   
@@ -214,7 +214,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.f6689966c0a10712f95f034011917db0.css" />
+  <link rel="stylesheet" href="/css/wowchemy.css" />
 
   
   
@@ -279,12 +279,12 @@
 
   
 
-<meta name="description" content="Popular big data frameworks running on top of managed runtimes must process datasets that typically outgrow DRAM capacity. Existing approaches extend the man- aged heap over slow but high-capacity media other than DRAM, such as NVMe SSDs. The state-of-the-art avoids costly garbage collection (GC) scans over the slow tier using two managed heaps, one in each tier. They use a DRAM (I/O) cache to offer fast access to objects in the slow tier. Nevertheless, these systems encounter signif- icant hurdles in determining which objects to migrate to the slow tier. One approach within existing systems relies on programming models or hints, demanding additional user effort and necessitating the rewriting of legacy frameworks, which is impractical in real-life deployments. An alternative category of systems identifies, transparently at runtime, the objects to move to the slow tier based on their object hotness. However, these solutions require costly code instrumentation, leading to a slowdown in application performance." />
+<meta name="description" content="[26/06/24] Trace Sampling Framework TraStrainer is awarded Distinguish Paper Award at FSE 2024." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://jackkolokasis.com/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/" />
-<link rel="canonical" href="https://jackkolokasis.com/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/" />
+<link rel="alternate" hreflang="en-us" href="http://localhost:1313/news/asplos/" />
+<link rel="canonical" href="http://localhost:1313/news/asplos/" />
 
 
 
@@ -307,17 +307,18 @@
 
 
   
+  
 
 
 
 
 
 
-<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:card" content="summary" />
 
   <meta property="twitter:site" content="@GetResearchDev" />
   <meta property="twitter:creator" content="@GetResearchDev" />
-<meta property="twitter:image" content="https://jackkolokasis.com/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/featured.jpg" />
+<meta property="twitter:image" content="http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
 
 
 
@@ -325,18 +326,11 @@
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="jackkolokasis.com" />
-<meta property="og:url" content="https://jackkolokasis.com/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/" />
-<meta property="og:title" content="GateKeeper: Transparent Placement of Big Data Objects in Hybrid Managed Heaps | jackkolokasis.com" />
-<meta property="og:description" content="Popular big data frameworks running on top of managed runtimes must process datasets that typically outgrow DRAM capacity. Existing approaches extend the man- aged heap over slow but high-capacity media other than DRAM, such as NVMe SSDs. The state-of-the-art avoids costly garbage collection (GC) scans over the slow tier using two managed heaps, one in each tier. They use a DRAM (I/O) cache to offer fast access to objects in the slow tier. Nevertheless, these systems encounter signif- icant hurdles in determining which objects to migrate to the slow tier. One approach within existing systems relies on programming models or hints, demanding additional user effort and necessitating the rewriting of legacy frameworks, which is impractical in real-life deployments. An alternative category of systems identifies, transparently at runtime, the objects to move to the slow tier based on their object hotness. However, these solutions require costly code instrumentation, leading to a slowdown in application performance." /><meta property="og:image" content="https://jackkolokasis.com/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="http://localhost:1313/news/asplos/" />
+<meta property="og:title" content="jackkolokasis.com" />
+<meta property="og:description" content="[26/06/24] Trace Sampling Framework TraStrainer is awarded Distinguish Paper Award at FSE 2024." /><meta property="og:image" content="http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta
-      property="article:published_time"
-      content="2017-01-01T00:00:00&#43;00:00"
-    />
-  
-  
-    <meta property="article:modified_time" content="2024-04-22T15:15:00&#43;00:00">
   
 
 
@@ -344,46 +338,6 @@
 
 
 
-
-  
-    
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://jackkolokasis.com/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/"
-  },
-  "name": "GateKeeper: Transparent Placement of Big Data Objects in Hybrid Managed Heaps",
-  
-  "location": {
-    "@type": "Place",
-    "name": "Athens, Greece"
-  },
-  
-  
-  "image": [
-    "https://jackkolokasis.com/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/featured.jpg"
-  ],
-  
-  "startDate": "2024-04-22T15:15:00Z",
-  
-  "endDate": "2024-04-22T15:30:00Z",
-  
-  
-  "performer": {
-    "@type": "Person",
-    "name": "Iacovos Kolokasis"
-  },
-  
-  "description": "Popular big data frameworks running on top of managed runtimes must process datasets that typically outgrow DRAM capacity. Existing approaches extend the man- aged heap over slow but high-capacity media other than DRAM, such as NVMe SSDs. The state-of-the-art avoids costly garbage collection (GC) scans over the slow tier using two managed heaps, one in each tier. They use a DRAM (I/O) cache to offer fast access to objects in the slow tier. Nevertheless, these systems encounter signif- icant hurdles in determining which objects to migrate to the slow tier. One approach within existing systems relies on programming models or hints, demanding additional user effort and necessitating the rewriting of legacy frameworks, which is impractical in real-life deployments. An alternative category of systems identifies, transparently at runtime, the objects to move to the slow tier based on their object hotness. However, these solutions require costly code instrumentation, leading to a slowdown in application performance."
-}
-</script>
 
   
 
@@ -401,7 +355,7 @@
 
 
   
-  <title>GateKeeper: Transparent Placement of Big Data Objects in Hybrid Managed Heaps | jackkolokasis.com</title>
+  <title>jackkolokasis.com</title>
 
   
   
@@ -421,7 +375,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="de6c48d80aad99ce29a31261c0c04070" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="989bd69c3b9bf3f41d241a0b2053b923" >
 
   
   
@@ -432,7 +386,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.9e4214442a7711d35691acd58f6f6361.js"></script>
+  <script src="/js/wowchemy-init.min.js"></script>
 
   
 
@@ -799,7 +753,7 @@
     
     
 
-    <div class="pub">
+    <article class="article">
 
   
 
@@ -815,26 +769,18 @@
 
 
 
-
-
-
-
-
-
-
-
+  
 
   
   
-
-
-
+  
 <div class="article-container pt-3">
-  <h1>GateKeeper: Transparent Placement of Big Data Objects in Hybrid Managed Heaps</h1>
+  <h1></h1>
 
   
 
   
+    
 
 
 <div class="article-metadata">
@@ -843,138 +789,45 @@
   
 
   
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-
-
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
+  <span class="article-date">
     
-  
-<a class="btn btn-outline-primary btn-page-header" href="/uploads/gatekeeper_kolokasis_eurodwl.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-
-
-
-</div>
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
-  <div style="position: relative">
-    <img src="/talk/gatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps/featured_hu3fd72e944181f6598ec558f38c1149e7_59510_01a53f2e6cdadf2b2a15cb9c7ae66d14.webp" width="720" height="405" alt="" class="featured-image">
     
-  </div>
+      
+    
+    Jan 1, 0001
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
 </div>
 
 
 
   <div class="article-container">
 
-    
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Popular big data frameworks running on top of managed runtimes must process datasets that typically outgrow DRAM capacity. Existing approaches extend the man- aged heap over slow but high-capacity media other than DRAM, such as NVMe SSDs. The state-of-the-art avoids costly garbage collection (GC) scans over the slow tier using two managed heaps, one in each tier. They use a DRAM (I/O) cache to offer fast access to objects in the slow tier. Nevertheless, these systems encounter signif- icant hurdles in determining which objects to migrate to the slow tier. One approach within existing systems relies on programming models or hints, demanding additional user effort and necessitating the rewriting of legacy frameworks, which is impractical in real-life deployments. An alternative category of systems identifies, transparently at runtime, the objects to move to the slow tier based on their object hotness. However, these solutions require costly code instrumentation, leading to a slowdown in application performance.</p>
-    
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Apr 22, 2024 3:15 PM &mdash; 3:30 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
-          <div class="col-12 col-md-9">
-            <a href="https://2024.eurosys.org/euroDW.html" target="_blank" rel="noopener">
-            18th EuroSys Doctoral Workshop (EuroDW &lsquo;24)
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Athens, Greece</div>
-          
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
     <div class="article-style">
-      
+      <p><strong>[26/06/24]</strong> Trace Sampling Framework <a href="/publication/trastariner/">TraStrainer</a> is awarded Distinguish Paper Award at <a href="https://conf.researchr.org/home/fse-2024" target="_blank" rel="noopener">FSE 2024</a>.</p>
+
     </div>
 
     
@@ -1000,7 +853,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjackkolokasis.com%2Ftalk%2Fgatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps%2F&amp;text=GateKeeper%3A&#43;Transparent&#43;Placement&#43;of&#43;Big&#43;Data&#43;Objects&#43;in&#43;Hybrid&#43;Managed&#43;Heaps" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fnews%2Fasplos%2F&amp;text=" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1017,7 +870,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjackkolokasis.com%2Ftalk%2Fgatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps%2F&amp;t=GateKeeper%3A&#43;Transparent&#43;Placement&#43;of&#43;Big&#43;Data&#43;Objects&#43;in&#43;Hybrid&#43;Managed&#43;Heaps" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fnews%2Fasplos%2F&amp;t=" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1036,7 +889,7 @@
         
       
       <li>
-        <a href="mailto:?subject=GateKeeper%3A%20Transparent%20Placement%20of%20Big%20Data%20Objects%20in%20Hybrid%20Managed%20Heaps&amp;body=https%3A%2F%2Fjackkolokasis.com%2Ftalk%2Fgatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fnews%2Fasplos%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1053,7 +906,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjackkolokasis.com%2Ftalk%2Fgatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps%2F&amp;title=GateKeeper%3A&#43;Transparent&#43;Placement&#43;of&#43;Big&#43;Data&#43;Objects&#43;in&#43;Hybrid&#43;Managed&#43;Heaps" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fnews%2Fasplos%2F&amp;title=" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1070,7 +923,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=GateKeeper%3A&#43;Transparent&#43;Placement&#43;of&#43;Big&#43;Data&#43;Objects&#43;in&#43;Hybrid&#43;Managed&#43;Heaps%20https%3A%2F%2Fjackkolokasis.com%2Ftalk%2Fgatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=%20http%3A%2F%2Flocalhost%3A1313%2Fnews%2Fasplos%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1087,7 +940,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjackkolokasis.com%2Ftalk%2Fgatekeeper-transparent-placement-of-big-data-objects-in-hybrid-managed-heaps%2F&amp;title=GateKeeper%3A&#43;Transparent&#43;Placement&#43;of&#43;Big&#43;Data&#43;Objects&#43;in&#43;Hybrid&#43;Managed&#43;Heaps" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Flocalhost%3A1313%2Fnews%2Fasplos%2F&amp;title=" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1120,11 +973,11 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://jackkolokasis.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hue927a5e5697c89b886405a967eb9273c_101034_270x270_fill_q75_lanczos_center.jpg" alt="Iacovos Kolokasis"></a>
+      <a href="http://localhost:1313/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hue927a5e5697c89b886405a967eb9273c_101034_270x270_fill_q75_lanczos_center.jpg" alt="Iacovos Kolokasis"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://jackkolokasis.com/">Iacovos Kolokasis</a></h5>
+      <h5 class="card-title"><a href="http://localhost:1313/">Iacovos Kolokasis</a></h5>
       <h6 class="card-subtitle">Graduate Research Assistant</h6>
       <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
       <ul class="network-icon" aria-hidden="true">
@@ -1265,7 +1118,7 @@
 
 
   </div>
-</div>
+</article>
   </div>
 
   <div class="page-footer">
@@ -1364,7 +1217,7 @@
   
 
 
-<script src="/js/vendor-bundle.min.ff7771056d34ad9f2de2d8f6a466e748.js"></script>
+<script src="/js/vendor-bundle.min.js"></script>
 
 
 
@@ -1445,7 +1298,7 @@
 <script id="page-data" type="application/json">{"use_headroom":true}</script>
 
 
-  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.js" type="module"></script>
 
 
 
@@ -1459,11 +1312,11 @@
   
 
 
-<script src="/en/js/wowchemy.min.7f5ebaff62ae468cff8bb3dd1337bb9b.js"></script>
+<script src="/en/js/wowchemy.min.js"></script>
 
 
 
-  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+  <script src="/js/wowchemy-map.js" type="module"></script>
 
 
 
@@ -1496,7 +1349,7 @@
 </div>
 
 
-  <script src="/js/wowchemy-publication.9c0e895144aef5a693008b5c5d450147.js" type="module"></script>
+  <script src="/js/wowchemy-publication.js" type="module"></script>
 
 
 

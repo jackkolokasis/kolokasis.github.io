@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | jackkolokasis.com</title>
+    <link>http://localhost:1313/news/</link>
+      <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>News</title>
+      <link>http://localhost:1313/news/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/news/asplos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/asplos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;[26/06/24]&lt;/strong&gt; Trace Sampling Framework &lt;a href=&#34;http://localhost:1313/publication/trastariner/&#34;&gt;TraStrainer&lt;/a&gt; is awarded Distinguish Paper Award at &lt;a href=&#34;https://conf.researchr.org/home/fse-2024&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FSE 2024&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
