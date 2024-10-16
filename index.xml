@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>TeraHeap: Exploiting Flash Storage for Mitigating DRAM Pressure in Managed Big Data Frameworks</title>
+      <link>https://jackkolokasis.com/publication/kolokasis_2024_teraheap_toplas/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/publication/kolokasis_2024_teraheap_toplas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Blog with Jupyter Notebooks!</title>
       <link>https://jackkolokasis.com/post/blog-with-jupyter/</link>
       <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
@@ -307,7 +315,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-719482356&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-921657348&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -317,7 +325,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-719482356&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-921657348&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
