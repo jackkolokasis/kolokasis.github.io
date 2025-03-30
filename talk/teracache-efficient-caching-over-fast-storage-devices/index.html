@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: October 22, 2024 --><html lang="en-us" >
+<!-- Last Published: March 30, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -279,7 +279,9 @@
 
   
 
-<meta name="description" content="Many analytics computations are dominated by iterative processing stages, executed until a convergence condition is met. To accelerate such workloads while keeping up with the exponential growth of data and the slow scaling of DRAM capacity, Spark employs o↵-heap caching of intermediate results. However, o↵- heap caching requires serialization and deserialization (serdes) of data that add significant overhead especially with growing datasets. This thesis proposes TeraCache, an extension of the Spark data cache that avoids the need of serdes by keeping all cached data on-heap but o↵-memory, using memory-mapped I/O (mmio). To achieve this, TeraCache extends the original JVM heap with a managed heap that resides on a memory-mapped fast storage device and is exclusively used for cached data. Preliminary results show that the TeraCache prototype can speed up Machine Learning (ML) workloads that cache intermediate results by up to 37% compared to the state-of-the-art serdes approach." />
+<meta name="description" content="This talk will introduce TeraCache, a new scalable cache for Spark that avoids both garbage collection (GC) and serialization overheads. Existing Spark caching options incur either significant GC overheads for large managed heaps over persistent memory or significant serialization overheads to place objects off-heap on large storage devices. Our analysis shows that: (1) serialization increases execution time by up to 30% and (2) caching on the managed heap increases GC time by 20%. In addition, these overheads become worse as datasets grow.
+&lt;br&gt; &lt;br&gt;
+TeraCache eliminates serialization and GC overhead for cached objects. To achieve this, TeraCache extends HotSpot JVM’s heap with a managed heap that resides on a memory-mapped fast storage device and is exclusively used for cached data. To avoid GC over TeraCache, we extend the Java runtime to use semantic hints from Spark allocating and freeing cached data objects. We modify the collector to not include cached objects, while maintaining safety. Preliminary results show that TeraCache can speed up ML workloads by up to 37% compared to the supported RDD storage levels." />
 
 
 
@@ -327,7 +329,9 @@
 <meta property="og:site_name" content="jackkolokasis.com" />
 <meta property="og:url" content="https://jackkolokasis.com/talk/teracache-efficient-caching-over-fast-storage-devices/" />
 <meta property="og:title" content="TeraCache: Efficient Caching over Fast Storage Devices | jackkolokasis.com" />
-<meta property="og:description" content="Many analytics computations are dominated by iterative processing stages, executed until a convergence condition is met. To accelerate such workloads while keeping up with the exponential growth of data and the slow scaling of DRAM capacity, Spark employs o↵-heap caching of intermediate results. However, o↵- heap caching requires serialization and deserialization (serdes) of data that add significant overhead especially with growing datasets. This thesis proposes TeraCache, an extension of the Spark data cache that avoids the need of serdes by keeping all cached data on-heap but o↵-memory, using memory-mapped I/O (mmio). To achieve this, TeraCache extends the original JVM heap with a managed heap that resides on a memory-mapped fast storage device and is exclusively used for cached data. Preliminary results show that the TeraCache prototype can speed up Machine Learning (ML) workloads that cache intermediate results by up to 37% compared to the state-of-the-art serdes approach." /><meta property="og:image" content="https://jackkolokasis.com/talk/teracache-efficient-caching-over-fast-storage-devices/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="This talk will introduce TeraCache, a new scalable cache for Spark that avoids both garbage collection (GC) and serialization overheads. Existing Spark caching options incur either significant GC overheads for large managed heaps over persistent memory or significant serialization overheads to place objects off-heap on large storage devices. Our analysis shows that: (1) serialization increases execution time by up to 30% and (2) caching on the managed heap increases GC time by 20%. In addition, these overheads become worse as datasets grow.
+&lt;br&gt; &lt;br&gt;
+TeraCache eliminates serialization and GC overhead for cached objects. To achieve this, TeraCache extends HotSpot JVM’s heap with a managed heap that resides on a memory-mapped fast storage device and is exclusively used for cached data. To avoid GC over TeraCache, we extend the Java runtime to use semantic hints from Spark allocating and freeing cached data objects. We modify the collector to not include cached objects, while maintaining safety. Preliminary results show that TeraCache can speed up ML workloads by up to 37% compared to the supported RDD storage levels." /><meta property="og:image" content="https://jackkolokasis.com/talk/teracache-efficient-caching-over-fast-storage-devices/featured.jpg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -336,7 +340,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2021-03-24T11:10:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-11-19T11:10:00&#43;00:00">
   
 
 
@@ -371,9 +375,9 @@
     "https://jackkolokasis.com/talk/teracache-efficient-caching-over-fast-storage-devices/featured.jpg"
   ],
   
-  "startDate": "2021-03-24T11:10:00Z",
+  "startDate": "2020-11-19T11:10:00Z",
   
-  "endDate": "2021-03-24T12:40:00Z",
+  "endDate": "2020-11-19T12:40:00Z",
   
   
   "performer": {
@@ -381,7 +385,7 @@
     "name": "Iacovos Kolokasis"
   },
   
-  "description": "Many analytics computations are dominated by iterative processing stages, executed until a convergence condition is met. To accelerate such workloads while keeping up with the exponential growth of data and the slow scaling of DRAM capacity, Spark employs o↵-heap caching of intermediate results. However, o↵- heap caching requires serialization and deserialization (serdes) of data that add significant overhead especially with growing datasets. This thesis proposes TeraCache, an extension of the Spark data cache that avoids the need of serdes by keeping all cached data on-heap but o↵-memory, using memory-mapped I/O (mmio). To achieve this, TeraCache extends the original JVM heap with a managed heap that resides on a memory-mapped fast storage device and is exclusively used for cached data. Preliminary results show that the TeraCache prototype can speed up Machine Learning (ML) workloads that cache intermediate results by up to 37% compared to the state-of-the-art serdes approach."
+  "description": "This talk will introduce TeraCache, a new scalable cache for Spark that avoids both garbage collection (GC) and serialization overheads. Existing Spark caching options incur either significant GC overheads for large managed heaps over persistent memory or significant serialization overheads to place objects off-heap on large storage devices. Our analysis shows that: (1) serialization increases execution time by up to 30% and (2) caching on the managed heap increases GC time by 20%. In addition, these overheads become worse as datasets grow.\n\u003cbr\u003e \u003cbr\u003e\nTeraCache eliminates serialization and GC overhead for cached objects. To achieve this, TeraCache extends HotSpot JVM’s heap with a managed heap that resides on a memory-mapped fast storage device and is exclusively used for cached data. To avoid GC over TeraCache, we extend the Java runtime to use semantic hints from Spark allocating and freeing cached data objects. We modify the collector to not include cached objects, while maintaining safety. Preliminary results show that TeraCache can speed up ML workloads by up to 37% compared to the supported RDD storage levels."
 }
 </script>
 
@@ -421,7 +425,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="36a44703fa30f15315fbb9837098aabe" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="f802b201e7ae5b206126a8b67cc25a35" >
 
   
   
@@ -886,31 +890,39 @@
 
 
 
+
+
   
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="/uploads/teracache_msr.pdf" target="_blank" rel="noopener">
-  Poster
+<a class="btn btn-outline-primary btn-page-header" href="/uploads/kolokasis_spark_summit_final.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://www.youtube.com/watch?v=O1PzEmUJ-X0&amp;t=602s&amp;ab_channel=Databricks" target="_blank" rel="noopener">
+  Video
 </a>
 
 
 
 
 
-
-
-
-
 </div>
 
 
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 1018px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
   <div style="position: relative">
-    <img src="/talk/teracache-efficient-caching-over-fast-storage-devices/featured_hud7c0b8feabca0751d4f158aebb1a3ea3_1320965_6fe61f9d85a23e3fde0c3ae812c1d578.webp" width="720" height="1018" alt="" class="featured-image">
+    <img src="/talk/teracache-efficient-caching-over-fast-storage-devices/featured_hua4b3727d65a2c9796f5b59c36c4fda2c_223413_ea4b95362aceadb759a2ea086c71ef8b.webp" width="720" height="405" alt="" class="featured-image">
     
   </div>
 </div>
@@ -921,7 +933,9 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract">Many analytics computations are dominated by iterative processing stages, executed until a convergence condition is met. To accelerate such workloads while keeping up with the exponential growth of data and the slow scaling of DRAM capacity, Spark employs o↵-heap caching of intermediate results. However, o↵- heap caching requires serialization and deserialization (serdes) of data that add significant overhead especially with growing datasets. This thesis proposes TeraCache, an extension of the Spark data cache that avoids the need of serdes by keeping all cached data on-heap but o↵-memory, using memory-mapped I/O (mmio). To achieve this, TeraCache extends the original JVM heap with a managed heap that resides on a memory-mapped fast storage device and is exclusively used for cached data. Preliminary results show that the TeraCache prototype can speed up Machine Learning (ML) workloads that cache intermediate results by up to 37% compared to the state-of-the-art serdes approach.</p>
+      <p class="pub-abstract">This talk will introduce TeraCache, a new scalable cache for Spark that avoids both garbage collection (GC) and serialization overheads. Existing Spark caching options incur either significant GC overheads for large managed heaps over persistent memory or significant serialization overheads to place objects off-heap on large storage devices. Our analysis shows that: (1) serialization increases execution time by up to 30% and (2) caching on the managed heap increases GC time by 20%. In addition, these overheads become worse as datasets grow.
+<br> <br>
+TeraCache eliminates serialization and GC overhead for cached objects. To achieve this, TeraCache extends HotSpot JVM’s heap with a managed heap that resides on a memory-mapped fast storage device and is exclusively used for cached data. To avoid GC over TeraCache, we extend the Java runtime to use semantic hints from Spark allocating and freeing cached data objects. We modify the collector to not include cached objects, while maintaining safety. Preliminary results show that TeraCache can speed up ML workloads by up to 37% compared to the supported RDD storage levels.</p>
     
 
     <div class="row">
@@ -930,7 +944,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Mar 24, 2021 &mdash;
+            Nov 19, 2020 &mdash;
           </div>
         </div>
       </div>
@@ -945,9 +959,9 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            <a href="https://www.microsoft.com/en-us/research/event/2021-phd-workshop-on-next-generation-cloud-infrastructure/agenda/" target="_blank" rel="noopener">
-            Microsoft Research Cambridge PhD Virtual Workshop on Next-Generation Cloud Infrastructure
-            </a>
+            
+            Data and AI Summit Europe'20
+            
           </div>
         </div>
       </div>
@@ -1321,7 +1335,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2025 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
