@@ -5,12 +5,28 @@
     <link>https://jackkolokasis.com/publication/</link>
       <atom:link href="https://jackkolokasis.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jackkolokasis.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://jackkolokasis.com/publication/</link>
     </image>
+    
+    <item>
+      <title>MaTSa: Race Detection in Java</title>
+      <link>https://jackkolokasis.com/publication/kolokasis_2025_matsa_vmil/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/publication/kolokasis_2025_matsa_vmil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmartSweep: Efficient Space Reclamation in Tiered Managed Heaps</title>
+      <link>https://jackkolokasis.com/publication/kolokasis_2025_smartsweep_mplr/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/publication/kolokasis_2025_smartsweep_mplr/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TeraHeap: Exploiting Flash Storage for Mitigating DRAM Pressure in Managed Big Data Frameworks</title>

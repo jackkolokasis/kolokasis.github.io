@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jackkolokasis.com/publication/kolokasis_2025_matsa_vmil/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jackkolokasis.com/publication-type/paper-conference/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jackkolokasis.com/publication_types/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jackkolokasis.com/publication/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jackkolokasis.com/publication/kolokasis_2025_smartsweep_mplr/</loc>
+    <lastmod>2025-10-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jackkolokasis.com/talk/dynaheap-dynamic-dram-partitioning-between-managed-heap-and-page-cache/</loc>
     <lastmod>2024-04-23T17:45:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -16,18 +36,6 @@
   </url><url>
     <loc>https://jackkolokasis.com/talk/dynamic-dram-partitioning-between-managed-heap-and-page-cache/</loc>
     <lastmod>2024-04-18T10:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jackkolokasis.com/publication-type/paper-conference/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jackkolokasis.com/publication_types/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jackkolokasis.com/publication/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jackkolokasis.com/publication/kolokasis_2024_teraheap_toplas/</loc>

@@ -1,0 +1,42 @@
+@inproceedings{10.1145/3759426.3760981,
+  author = {Kolokasis, Iacovos G. and Delis, Konstantinos and Akram, Shoaib and
+            Zakkak, Foivos S. and Pratikakis, Polyvios and Bilas, Angelos},
+  title = {SmartSweep: Efficient Space Reclamation in Tiered Managed Heaps},
+  year = {2025},
+  isbn = {9798400721496},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3759426.3760981},
+  doi = {10.1145/3759426.3760981},
+  abstract = {Using remote memory for the Java heap enables big data analytics
+              frameworks to process large datasets. However, the Java Virtual
+              Machine (JVM) runtime struggles to maintain low network traffic
+              during garbage collection (GC) and to reclaim space efficiently. To
+              reduce GC cost in big data analytics, systems group long-lived
+              objects into regions and excludes them from frequent GC scans,
+              regardless of whether the heap resides in local or remote memory.
+              Recent work uses a dual-heap design, placing short-lived objects in
+              a local heap and long-lived objects in a remote region-based heap,
+              limiting GC activity to the local heap. However, these systems
+              avoid scanning by reclaiming remote heap space only when regions
+              are fully garbage, an inefficient strategy that delays reclamation
+              and risks out-of-memory (OOM) errors. In this paper, we propose
+              SmartSweep, a system that uses approximate liveness information to
+              balance network traffic and space reclamation in remote heaps.
+              SmartSweep adopts a dual-heap design and avoids scanning or
+              compacting objects in the remote heap. Instead, it estimates the
+              amount of garbage in each region without accessing the remote heap
+              and selectively transfers regions with many garbage objects back to
+              the local heap for reclamation. Preliminary results with Spark and
+              Neo4j show that SmartSweep achieves performance comparable to
+              TeraHeap, which reclaims remote objects lazily, while reducing peak
+              remote memory usage by up to 49\% and avoiding OOM errors.},
+  booktitle = {Proceedings of the 22nd ACM SIGPLAN International Conference on
+               Managed Programming Languages and Runtimes},
+  pages = {71–78},
+  numpages = {8},
+  keywords = {Big Data Systems, Disaggregated Memory, Garbage Collection, Memory
+              Management, Remote Memory},
+  location = {Singapore, Singapore},
+  series = {MPLR '25},
+}

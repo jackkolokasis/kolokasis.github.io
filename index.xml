@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>MaTSa: Race Detection in Java</title>
+      <link>https://jackkolokasis.com/publication/kolokasis_2025_matsa_vmil/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/publication/kolokasis_2025_matsa_vmil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SmartSweep: Efficient Space Reclamation in Tiered Managed Heaps</title>
+      <link>https://jackkolokasis.com/publication/kolokasis_2025_smartsweep_mplr/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/publication/kolokasis_2025_smartsweep_mplr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DynaHeap: Dynamic DRAM Partitioning Between Managed Heap and Page Cache</title>
       <link>https://jackkolokasis.com/talk/dynaheap-dynamic-dram-partitioning-between-managed-heap-and-page-cache/</link>
       <pubDate>Tue, 23 Apr 2024 17:45:00 +0000</pubDate>
@@ -315,7 +331,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-364975218&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-652498137&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -325,7 +341,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-364975218&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-652498137&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

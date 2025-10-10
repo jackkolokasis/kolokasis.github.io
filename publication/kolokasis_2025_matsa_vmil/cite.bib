@@ -1,0 +1,37 @@
+@inproceedings{10.1145/3759548.3763369,
+  author = {Antonakakis, Alexandros Emmanouil and Kolokasis, Iacovos G. and
+            Zakkak, Foivos S. and Bilas, Angelos and Pratikakis, Polyvios},
+  title = {MaTSa: Race Detection in Java},
+  year = {2025},
+  isbn = {9798400721649},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3759548.3763369},
+  doi = {10.1145/3759548.3763369},
+  abstract = {Parallel programs are prone to data races, which are concurrency
+              bugs that are difficult to track and reproduce. Various attempts
+              have been made to create or incorporate tools that aim to
+              dynamically detect data races in Java, but most rely on external
+              race detectors that: a) miss some of the nuances in the Java Memory
+              Model (JMM), b) are too slow and complicated to be used in complex
+              real-world applications, or c) produce a lot of false positive
+              reports. In this paper, we present MaTSa, a tool built within
+              OpenJDK, that aims to dynamically detect data races and offer
+              informative pointers to the origin of the race. We evaluate MaTSa
+              and detect several races in the Renaissance benchmark suite and the
+              Quarkus framework, many of which have been reported and resulted in
+              upstream fixes. We compare MaTSa to Java TSan, the only current
+              state-of-the-art dynamic race detector that works on recent OpenJDK
+              versions. We analyze issues with false positives and false
+              negatives for both tools and explain the design decisions causing
+              them. We found MaTSa to be 15x faster on average, while scaling to
+              large programs not supported by other tools.},
+  booktitle = {Proceedings of the 17th ACM SIGPLAN International Workshop on
+               Virtual Machines and Intermediate Languages},
+  pages = {1–11},
+  numpages = {11},
+  keywords = {FastTrack, MaTSa, OpenJDK, data race, dynamic race detection,
+              happens-before, instrumentation, multi-threaded programming},
+  location = {Singapore, Singapore},
+  series = {VMIL '25},
+}
