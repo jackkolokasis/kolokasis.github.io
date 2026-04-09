@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>FlexHeap: Dynamic I/O-Aware Heap Resizing for Managed Applications</title>
+      <link>https://jackkolokasis.com/publication/kolokasis_2026_flexheap_pldi/</link>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://jackkolokasis.com/publication/kolokasis_2026_flexheap_pldi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MaTSa: Race Detection in Java</title>
       <link>https://jackkolokasis.com/publication/kolokasis_2025_matsa_vmil/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
@@ -331,7 +339,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-786531492&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-623945178&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -341,7 +349,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-786531492&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-623945178&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
